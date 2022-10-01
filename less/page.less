@@ -1,0 +1,95 @@
+@import 'variables.less';
+@import 'mixins.less';
+
+.first-inputs, .second-inputs{
+    width:100%;
+    justify-content:space-between;
+    margin-bottom:20px;
+    span{
+        width:49%;
+        .form-input{
+            width:100%;
+            border-radius:20px;
+            padding:8px 15px;
+            border:2px solid #E2E2E2;
+            color:#333333;
+            &:active, &:focus{
+                outline:0;
+                border:2px solid #E2E2E2;
+            }
+        }
+    }
+}
+.textarea-cnt{
+    width:100%;
+    margin-bottom:20px;
+    span{
+        width:100%;
+        .form-textarea{
+            width:100%;
+            border-radius:20px;
+            padding:8px 15px;
+            border:2px solid #E2E2E2;
+            color:#333333;
+            &:active, &:focus{
+                outline:0;
+                border:2px solid #E2E2E2;
+            }
+        }
+    }
+}
+.checkbox-cnt{
+    width:100%;
+    margin-bottom:20px;
+    .wpcf7-list-item{
+        margin:0px;
+    }
+   .wpcf7-list-item-label{
+        a{
+            color:#FC3E44;
+            text-decoration:underline;
+            &:hover{
+                color:#FC3E44;
+                text-decoration:none;
+            }
+        }
+    }
+    span{
+        .form-checkbox{
+            accent-color:#FC3E44;
+        }
+    }
+}
+.submit-cnt{
+    .form-submit{
+        background-color:#D60007;
+        border:1px solid #D60007;
+        color:#fff;
+        padding:8px 30px;
+        border-radius:100px;
+    }
+}
+.contact-image-cnt{
+    align-items:flex-end!important;
+    img{
+            border-radius:44px;
+    }
+    
+    .wp-block-cover__inner-container{
+        .wp-block-columns{
+            height:95px;
+            padding:20px;
+            border-radius:0px 0px 44px 44px;
+        }
+    }
+}
+.page-column{
+    border-radius:30px;
+    padding:0px;
+    position:relative;
+    top:50px;
+    box-shadow:0px 3px 20px rgba(0,0,0,0.06);
+    .wp-block-column {
+        border-radius:30px;
+    }
+}

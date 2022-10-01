@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="envelope-menu" transform="translate(-1361 -28)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="50" height="50" rx="25" transform="translate(1361 28)" fill="#fc3e44"/>
+    <path id="mail" d="M22.3,5.625H5.114A2.867,2.867,0,0,0,2.25,8.489V20.761a2.867,2.867,0,0,0,2.864,2.864H22.3a2.867,2.867,0,0,0,2.864-2.864V8.489A2.867,2.867,0,0,0,22.3,5.625Zm-.725,4.737-7.363,5.727a.818.818,0,0,1-1,0L5.839,10.362a.818.818,0,1,1,1-1.292L13.7,14.406,20.566,9.07a.818.818,0,1,1,1,1.292Z" transform="translate(1372.296 38.375)" fill="#fff"/>
+  </g>
+</svg>

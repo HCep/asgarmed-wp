@@ -1,0 +1,28 @@
+@import 'mixins.less';
+@import 'variables.less';
+.site-footer{
+    max-width:1920px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 29%, rgba(226,226,226,1) 71%, rgba(226,226,226,1) 97%);
+    position:relative;
+    padding:50px 0px;
+    border-top:1px solid #FC3E44;
+ &:after{
+    content:'';
+    position:absolute;
+    height:5px;
+    width:100px;
+    background-color:#FC3E44;
+    top:-3px;
+    left:50%;
+    transform:translateX(-50%);
+    border-radius:100px;
+ }
+}
+
+.social-icon{
+    .wp-block-button__link{
+        background-color:transparent!important;
+        padding:0 !important;
+    }
+}

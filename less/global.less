@@ -1,0 +1,115 @@
+@import 'variables.less';
+@import 'mixins.less';
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    
+}
+html, body{
+    overflow-x:hidden;
+}
+body{
+    max-width:1920px;
+    margin:0 auto;
+    font-family: "Mulish";
+}
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+h1{
+    strong{
+        color:#FF3E44;
+    }
+}
+h1, h2{
+    font-size:35px;
+    @media @small{
+        font-size:48px;
+    }
+}
+.border-red{
+    position: absolute;
+    z-index: 9;
+    left: 3%;
+    .wp-block-button__link{
+    border:1px solid #D60007;
+}}
+.h3-red-border{
+    width:100%;
+    position:relative;
+  
+    &::after{
+        content:'';
+        position:absolute;
+        top:-20px;
+        left:0;
+        width:15%;
+        border-radius:50px;
+        height:6px;
+        background-color: #FC3E44;
+
+    }
+}
+.border_radius{
+    height:100%;
+  
+    .wp-block-cover__background{
+    border-radius:30px;}
+}
+a, p{
+    color:#580001;
+    text-decoration: none;
+}
+
+.custom-card{
+    border-radius:16px;
+    padding:20px;
+    box-shadow:0px 3px 20px rgba(0,0,0,0.06);
+}
+.speed-section-card{
+    position:relative;
+    border-radius:16px;
+    padding:30px 40px;
+    background-color:#fff;
+    box-shadow:0px 3px 50px rgba(0,0,0,0.08);
+}
+.speed-section-column{
+    position:relative;
+    z-index:99;
+    top:-100px;
+}
+.positioning-section{
+    position:relative;
+    top:-50px;
+}
+.cennik-column{
+    position:relative;
+    top:50px;
+}
+#breadcrumbs{
+    padding-top:15px;
+    span span{
+        font-size:16px;
+        a, .breadcrumb_last{
+            text-decoration:none;
+            color:#580001;
+            font-weight:500;
+        }
+    }
+}
+.breadcrumbs-image{
+    display:inline-block;
+    margin:0px 40px;
+}
+.container{
+    padding-left:15px;
+    padding-right:15px;
+}
+.font-32{
+    font-size:18px;
+    @media @small{
+        font-size:32px;
+    }
+}
